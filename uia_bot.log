@@ -1,0 +1,194 @@
+2026-07-06 01:23:14,113 - discord.client - WARNING - davey is not installed, voice will NOT be supported
+2026-07-06 01:23:14,122 - uia_vps_bot - INFO - Starting Aura Nodez VPS Bot...
+2026-07-06 01:23:14,124 - discord.client - INFO - logging in using static token
+2026-07-06 01:23:15,142 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 2.6%
+2026-07-06 01:23:15,661 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: aaa319e265d3dea761ff610be5cd6dbf).
+2026-07-06 01:23:17,709 - uia_vps_bot - INFO - Aura nodez#1016 has connected to Discord!
+2026-07-06 01:23:18,160 - uia_vps_bot - INFO - Synced 2 slash commands
+2026-07-06 01:23:18,160 - uia_vps_bot - INFO - ✨ Aura Nodez VPS Bot is ready!
+2026-07-06 01:24:16,177 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 2.6%
+2026-07-06 01:24:20,345 - uia_vps_bot - ERROR - Command error: Command raised an exception: HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.thumbnail.url: Not a well formed URL.
+In embeds.0.footer.icon_url: Not a well formed URL.
+2026-07-06 01:24:20,699 - discord.client - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/root/uiahost-lxc-bot/uia_vps_bot.py", line 739, in on_command_error
+    await ctx.send(embed=create_error_embed("System Error", "An unexpected error occurred. Support has been notified."))
+  File "/usr/local/lib/python3.12/dist-packages/discord/ext/commands/context.py", line 1103, in send
+    return await super().send(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/discord/abc.py", line 1706, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.thumbnail.url: Not a well formed URL.
+In embeds.0.footer.icon_url: Not a well formed URL.
+2026-07-06 01:25:11,922 - uia_vps_bot - ERROR - Command error: Command raised an exception: HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.thumbnail.url: Not a well formed URL.
+In embeds.0.footer.icon_url: Not a well formed URL.
+2026-07-06 01:25:12,276 - discord.client - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/root/uiahost-lxc-bot/uia_vps_bot.py", line 739, in on_command_error
+    await ctx.send(embed=create_error_embed("System Error", "An unexpected error occurred. Support has been notified."))
+  File "/usr/local/lib/python3.12/dist-packages/discord/ext/commands/context.py", line 1103, in send
+    return await super().send(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/discord/abc.py", line 1706, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.thumbnail.url: Not a well formed URL.
+In embeds.0.footer.icon_url: Not a well formed URL.
+2026-07-06 01:25:17,190 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 2.6%
+2026-07-06 01:25:20,181 - uia_vps_bot - ERROR - Command error: Command raised an exception: HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.thumbnail.url: Not a well formed URL.
+In embeds.0.footer.icon_url: Not a well formed URL.
+2026-07-06 01:25:20,521 - discord.client - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/root/uiahost-lxc-bot/uia_vps_bot.py", line 739, in on_command_error
+    await ctx.send(embed=create_error_embed("System Error", "An unexpected error occurred. Support has been notified."))
+  File "/usr/local/lib/python3.12/dist-packages/discord/ext/commands/context.py", line 1103, in send
+    return await super().send(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/discord/abc.py", line 1706, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.thumbnail.url: Not a well formed URL.
+In embeds.0.footer.icon_url: Not a well formed URL.
+2026-07-06 01:25:32,409 - uia_vps_bot - ERROR - Command error: Command raised an exception: HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.thumbnail.url: Not a well formed URL.
+In embeds.0.footer.icon_url: Not a well formed URL.
+2026-07-06 01:25:32,752 - discord.client - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/root/uiahost-lxc-bot/uia_vps_bot.py", line 739, in on_command_error
+    await ctx.send(embed=create_error_embed("System Error", "An unexpected error occurred. Support has been notified."))
+  File "/usr/local/lib/python3.12/dist-packages/discord/ext/commands/context.py", line 1103, in send
+    return await super().send(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/discord/abc.py", line 1706, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.thumbnail.url: Not a well formed URL.
+In embeds.0.footer.icon_url: Not a well formed URL.
+2026-07-06 01:25:45,911 - discord.client - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/root/uiahost-lxc-bot/uia_vps_bot.py", line 730, in on_command_error
+    await ctx.send(embed=create_error_embed("Missing Argument", f"Usage: `{PREFIX}help` for command info"))
+  File "/usr/local/lib/python3.12/dist-packages/discord/ext/commands/context.py", line 1103, in send
+    return await super().send(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/discord/abc.py", line 1706, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.thumbnail.url: Not a well formed URL.
+In embeds.0.footer.icon_url: Not a well formed URL.
+2026-07-06 01:30:24,924 - discord.client - WARNING - davey is not installed, voice will NOT be supported
+2026-07-06 01:30:24,930 - uia_vps_bot - INFO - Starting Aura Nodez VPS Bot...
+2026-07-06 01:30:24,933 - discord.client - INFO - logging in using static token
+2026-07-06 01:30:25,951 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 2.6%
+2026-07-06 01:30:26,680 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d5c9835a748f30fdaf8b35b4a87aa0cc).
+2026-07-06 01:30:28,699 - uia_vps_bot - INFO - Aura nodez#1016 has connected to Discord!
+2026-07-06 01:30:29,965 - uia_vps_bot - INFO - Synced 2 slash commands
+2026-07-06 01:30:29,965 - uia_vps_bot - INFO - ✨ Aura Nodez VPS Bot is ready!
+2026-07-06 01:31:26,966 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 2.6%
+2026-07-06 01:32:28,014 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.0%
+2026-07-06 01:32:54,336 - uia_vps_bot - INFO - Applied LXC config to uia-redzbhaiop-1
+2026-07-06 01:33:29,032 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 7.5%
+2026-07-06 01:33:43,551 - uia_vps_bot - INFO - Applied internal permissions to uia-redzbhaiop-1
+2026-07-06 01:34:30,045 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:35:31,058 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:36:32,070 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:37:33,083 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:38:34,095 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:39:35,121 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:40:36,136 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:41:37,150 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:42:38,181 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:43:39,198 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:44:40,211 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:45:41,223 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:46:42,235 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:47:43,265 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:48:44,283 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:49:45,296 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:50:46,310 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:51:47,322 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:52:48,338 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:53:49,371 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:54:50,391 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:55:51,407 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:56:52,420 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:57:53,437 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:58:54,463 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 01:59:55,493 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 02:00:56,510 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 02:01:57,529 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 02:02:58,546 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.7%
+2026-07-06 02:03:07,722 - uia_vps_bot - INFO - Applied internal permissions to uia-redzbhaiop-1
+2026-07-06 02:03:59,557 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.4%
+2026-07-06 02:05:00,586 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.5%
+2026-07-06 02:06:01,606 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.5%
+2026-07-06 02:07:02,619 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.5%
+2026-07-06 02:08:03,636 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.5%
+2026-07-06 02:09:04,651 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.5%
+2026-07-06 02:10:05,667 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.5%
+2026-07-06 02:11:06,693 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.9%
+2026-07-06 02:12:07,709 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.8%
+2026-07-06 02:13:08,724 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.8%
+2026-07-06 02:14:09,739 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.8%
+2026-07-06 02:15:10,757 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.8%
+2026-07-06 02:16:11,776 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.8%
+2026-07-06 02:17:12,790 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.8%
+2026-07-06 02:18:13,819 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.9%
+2026-07-06 02:19:14,843 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.9%
+2026-07-06 02:20:15,858 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.9%
+2026-07-06 02:21:16,891 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.9%
+2026-07-06 02:21:17,959 - discord.client - WARNING - davey is not installed, voice will NOT be supported
+2026-07-06 02:21:17,964 - uia_vps_bot - INFO - Starting Aura Nodez VPS Bot...
+2026-07-06 02:21:17,965 - discord.client - INFO - logging in using static token
+2026-07-06 02:21:18,983 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 7.0%
+2026-07-06 02:21:19,566 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1f88e7a26bce9e4fc7185f15acbfd77e).
+2026-07-06 02:21:21,698 - uia_vps_bot - INFO - Aura nodez#1016 has connected to Discord!
+2026-07-06 02:21:22,095 - uia_vps_bot - INFO - Synced 2 slash commands
+2026-07-06 02:21:22,095 - uia_vps_bot - INFO - ✨ Aura Nodez VPS Bot is ready!
+2026-07-06 02:22:17,913 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 7.0%
+2026-07-06 02:22:20,005 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 7.0%
+2026-07-06 02:23:21,018 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.9%
+2026-07-06 02:26:22,518 - discord.client - WARNING - davey is not installed, voice will NOT be supported
+2026-07-06 02:26:22,525 - uia_vps_bot - INFO - Starting Aura Nodez VPS Bot...
+2026-07-06 02:26:22,527 - discord.client - INFO - logging in using static token
+2026-07-06 02:26:23,545 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.8%
+2026-07-06 02:26:25,871 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 93924d574b6e4b70e687a957be8c7b95).
+2026-07-06 02:26:27,884 - uia_vps_bot - INFO - Aura nodez#1016 has connected to Discord!
+2026-07-06 02:26:29,126 - uia_vps_bot - INFO - Synced 2 slash commands
+2026-07-06 02:26:29,127 - uia_vps_bot - INFO - ✨ Aura Nodez VPS Bot is ready!
+2026-07-06 02:27:24,577 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.8%
+2026-07-06 02:28:25,599 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.8%
+2026-07-06 02:29:26,617 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.8%
+2026-07-06 02:30:27,632 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 6.8%
+2026-07-06 02:31:28,654 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 7.0%
+2026-07-06 02:32:29,669 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 7.0%
+2026-07-06 02:33:30,691 - uia_vps_bot - INFO - Host CPU: 0.0%, RAM: 7.1%
