@@ -30,7 +30,7 @@ from enum import Enum
 # CONFIGURATION
 # ============================================================
 
-DISCORD_TOKEN = os.getenv('DISCORD_TOKEN', 'MTUxNzIxMjMzNzk3Nzk1MDI0OQ.GNgCBI.FqCXr4VzXw5qXzzZTUx4iv-M4w7omL8NJTiqq0')
+DISCORD_TOKEN = os.getenv('DISCORD_TOKEN', '676790FuckMTUxNzIxMjMzNzk3Nzk1MDI0OQ.GWEdmz.rQNHFy93FqpRAABijn6auKPmynTBlqedzH0_is')
 BOT_NAME = os.getenv('BOT_NAME', 'Aura Nodez')
 PREFIX = os.getenv('PREFIX', '!')
 YOUR_SERVER_IP = os.getenv('YOUR_SERVER_IP', '127.0.0.1')
